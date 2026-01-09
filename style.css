@@ -34,7 +34,7 @@
     gap: 20px;
     align-items: center;
  }
-.btn button{
+.btn .bottons{
     
     background-color:  #30B868;
     border: none;
@@ -46,11 +46,23 @@
     
     
 }
+.btn .bottons3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 16px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+     
+}
 .small-test{
     display: flex;
     gap: 5px;
     align-items: center;
-    background-color: bisque ;
+    background-color: white ;
+    color: #30B868;
     height: 35px;
     width: 230px;
     border-radius: 20px;
@@ -71,12 +83,20 @@
     padding: 60px ;
 }
 .heading{
-    font-size: 50px;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
 }
-.back-img{
-    height: 1363px;
-    width: 2,042px;
+.color{
+    color: #30B868;
 }
+.pra{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
 
 
 .bottons{
@@ -113,18 +133,21 @@
     
 
 .cardsab{
+    align-items: center;
     height: 300px ;
     width: 300px;
-    background-color: #30B868;
     margin-top: 44px;
     text-align: center;
-    border-radius: 10px
+    border-radius: 10px;
+    box-shadow: 0 6px 40px 0 rgba(126, 125, 125, 0.212);
+    
     
 }
 .text-area2{
     justify-items: center;
     align-items: center;
     margin-top: 50px;
+    font-weight: bold;
 }
 .knowledge{
     display: flex;
@@ -142,6 +165,7 @@
 }
 .text h1{
     font-size: 50px;
+    text-transform: capitalize;
 }
 
 
@@ -195,4 +219,8 @@
 .img3{
     width: 300px;
     height: 60px;
+    
 }
+
+
+
