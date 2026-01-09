@@ -42,7 +42,7 @@
     font-weight: bold;
     color: white;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 5px;
     
     
 }
@@ -55,6 +55,7 @@
     border: 1px solid white;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
      
 }
 .small-test{
